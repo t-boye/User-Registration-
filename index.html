@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <script src="myjavaScript.js"></script>
+  </head>
+  <body class="body">
+    <h1>USER REGISTRATION</h1>
+    <form onsubmit="showResults(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      
+      <label for="address">Address:</label>
+      <textarea id="address" name="address"></textarea><button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+      <br><br>
+
+      <label for="picture">Picture:</label>
+      <input type="file" id="picture" name="picture" required><br><br>
+      
+      <input type="submit" value="Submit">
+      
+    </form>
+     <!-- Footer Start -->
+     <footer class="footer">
+     <div>
+      <div class="container py-5 px-lg-5">
+          <div class="row g-5">
+              <div>
+                  <h4 class="text-white mb-4">Get In Touch</h4>
+                  <i class="fa fa-map-marker-alt me-3"></i>Abeka Rd, Accra, Ghana
+                  || <i class="fa fa-phone-alt me-3"></i>+233 593501488</p>
+                  <p><i class="fa fa-envelope me-3"></i>tboyebroadcast@gmail.com</p>
+              </div>
+
+      <div class="container px-lg-5">
+          <div class="copyright">
+              <div class="row">
+                  <div>
+                      &copy; <a class="border-bottom" href="#">Tboye Creative Solutions</a>, All Right Reserved. 
+                  </div>
+              </div>
+          </div>
+      </div>  </footer>        
+  <!-- Footer End -->
+
+      
+  </body>
+</html>
